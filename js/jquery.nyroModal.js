@@ -528,7 +528,7 @@ jQuery(function($, undefined) {
 					.css({
 						position: 'fixed',
 						width: this.sizes.w,
-						height: this.sizes.h,
+						height: this.sizes.h + 8, // height + 2x border
 						top: (this.getInternal().fullSize.viewH - this.sizes.h - this.sizes.hMargin)/2,
 						left: (this.getInternal().fullSize.viewW - this.sizes.w - this.sizes.wMargin)/2
 					});
